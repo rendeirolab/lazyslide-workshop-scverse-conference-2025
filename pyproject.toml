@@ -1,0 +1,21 @@
+[project]
+name = "scverse-conference-2025-lazyslide-workshop"
+version = "0.1.0"
+description = "Workshop materials for LazySlide workshop at scverse conference 2025"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cellpose>=4.0.7",
+    "environs>=14.5.0",
+    "huggingface-hub>=0.34",
+    "lazyslide>=0.9.2",
+    "python-igraph>=1.0.0",
+    "sacremoses>=0.1.1",
+    "scanpy>=1.11.5",
+    "transformers>=4.57.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
