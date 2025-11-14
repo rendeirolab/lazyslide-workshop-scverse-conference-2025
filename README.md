@@ -40,10 +40,18 @@ After this workshop, the audience are expected to understand:
 
 ## Setting up the environment
 
+### Google Colab
+
+<a target="_blank" href="https://colab.research.google.com/github/rendeirolab/lazyslide-workshop-scverse-conference-2025/blob/main/lazyslide_playground.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+### Run locally
+
 Clone the git repository
 
 ```bash
-git clone https://github.com/rendeirolab/xxx
+git clone https://github.com/rendeirolab/lazyslide-workshop-scverse-conference-2025.git
 ```
 
 Use `uv` to setup the environment, [How to install uv?](https://docs.astral.sh/uv/getting-started/installation/)
