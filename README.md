@@ -16,27 +16,27 @@ By adopting standardized data structures and APIs familiar to the single-cell an
 
 Please ⭐ [LazySlide](https://github.com/rendeirolab/LazySlide) and [wsidata](https://github.com/rendeirolab/wsidata) if you like our work! We really appreciate your support!
 
-If you want to learn more about LazySlide and master the whole slide image analysis, we have detailed tutorials covering different topics.
+If you want to learn more about LazySlide and master whole slide image analysis, we have detailed tutorials covering different topics.
 - Go to [LazySlide tutorials](https://lazyslide.readthedocs.io/en/latest/tutorials/intro_wsi.html)
 - Go to [wsidata tutorials](https://wsidata.readthedocs.io/en/latest/intro/01-read%26write.html)
 
 ## What to expect?
 
-After this workshop, the audience are expected to understand:
+After this workshop, the audience is expected to understand:
 
 1. 101 of Whole slide image (WSI)
 - What is WSI? Why WSI can be useful?
 - What can we do with WSI data?
-2. Create a wsidata
+2. Create a wsidata object
 - How to open a WSI programatically?
-- What information you can retrive from a WSI
-3. Using LazySlide for following tasks:
+- What information you can retrive from a WSI?
+3. Using LazySlide for the following tasks:
 - Preprocessing of a WSI
 - Feature extraction
-- Unsupervised spatial domain
+- Unsupervised spatial domain detection
 - Text-image text query
 - Zero-shot classification
-- Cell segmentation
+- Cell segmentation and classification
 
 ## Setting up the environment
 
