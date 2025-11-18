@@ -65,3 +65,31 @@ Launch jupyter
 ```bash
 uv run --with jupyter jupyter lab
 ```
+
+### Setting up a Hugging Face token and apply for model access
+
+You need a Hugging Face account to access many of the models used in LazySlide. If you don't have one yet, please register [here](https://huggingface.co/login).
+
+If you want to experience some features of LazySlide during the workshop, you need to apply for access for two models: [Virchow](https://huggingface.co/paige-ai/Virchow) and [Prism](https://huggingface.co/paige-ai/Prism)
+
+Once you're finished, go to your [Settings → Access Tokens](https://huggingface.co/settings/tokens), click `+ Create new token`, select the `Read` token type, enter a name such as `lazyslide-tutorial`, and click `Create token`. Do not close the pop-up window—copy the token; you'll need it for authentication.
+
+1. Local setup
+
+Use the Hugging Face CLI to log in:
+
+```bash
+uv run hf auth login
+```
+
+This command prompts you to enter your token to authenticate this machine.
+
+2. Google Colab setup
+
+Open the Secrets panel, create an environment variable named `HF_TOKEN`, paste the token as the value, and enable notebook access. Remember to restart the runtime for the environment variable to take effect.
+
+<p align="center">
+    <picture align="center">
+    <img src="https://raw.githubusercontent.com/rendeirolab/lazyslide-workshop-scverse-conference-2025/main/assets/colab_hf_token_setup.png" width="400px">
+    </picture>
+</p>
